@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    border: 4px solid magenta;
+    background-color: slateblue
+}
+div {
+    border: 2px dotted darkslateblue;
+    background-color:rgb(25, 78, 124)
+}
+
+p {
+    border: 7px limegreen;
+    background-color: rgb(210, 180, 232);
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 10px 30px;
+}
+
+time {
+    border: 1px palegoldenrod;
+    background-color: aquamarine;
+}
+
+strong {
+    border: 5px papayawhip;
+    background-color: wheat;
+}
+
+small {
+    border: 3px peachpuff;
+}
+
+sup {
+    border: 8px yellowgreen;
+}
+
+i {
+    border: 6px purple;
+    font-size: 67;
+}
+
+b {
+    border: 1px plum
+}
+
+button {
+    border: 5px red;
+    color: rgb(171, 0, 0);
+}
+
+cite {
+    border: 8px powderblue
+}
