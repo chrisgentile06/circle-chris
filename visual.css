@@ -6,17 +6,17 @@ html {
 }
 
 body {
-    border: 4px solid magenta;
-    background-color: slateblue
+    border: 4px solid chocolate;
+    background-color: plum
 }
 div {
-    border: 2px dotted darkslateblue;
-    background-color:rgb(25, 78, 124)
+    border: 2px dotted chocolate;
+    background-color:greenyellow
 }
 
 p {
     border: 7px limegreen;
-    background-color: rgb(210, 180, 232);
+    background-color: greenyellow
     font-size: 40px;
     margin-bottom: 50px;
     padding: 10px 30px;
