@@ -1,0 +1,64 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(155, 197, 236);
+    color: rgb(78, 39, 3);
+}
+
+.button-active {
+    background: peachpuff;
+
+}
+
+.button-active a {
+    background-color: rgb(228, 183, 144);
+    border-color: rgb(187, 143, 104);
+    color:rgb(21, 112, 197);
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 30%;
+}
+
+.secret {
+    color:rgb(155, 197, 236);
+    font-size: 36px;
+    font-style: italic;
+}
+.cloud-link {
+    background-color: rgb(192, 220, 247);
+    font-size: 24px;
+    width: 30%;
+    padding: 5px;
+    position: fixed;
+    top: 40px;
+    left: 40%;
+    
+}
+a {
+    color: rgb(181, 33, 33); 
+    display: block;
+    font-size: 20px;
+    font-style: italic;
+    letter-spacing: 2px;
+    border: 6px solid rgb(93, 141, 186);
+    background-color: rgb(115, 163, 208);
+    width: 35%;
+    margin-bottom: 30px;
+}
+
+button {
+    background-color: rgb(21, 112, 197);
+    color:peachpuff;
+
+}
+
+h1 {
+    font-size: 48px;
+}
