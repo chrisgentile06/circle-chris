@@ -32,8 +32,20 @@ h2 {
     color:rgb(71, 104, 149);
     font-style: initial;
     word-spacing: 5px;
-    
 
+}
+img {
+    width: 40%;
+    height: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    float: left;
+    padding: 20px;
 }
 
 .music {
