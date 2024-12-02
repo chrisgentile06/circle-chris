@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    font: italic;
+}
+
+h2 {
+    font: italic;
+}
+
+body {
+    background-color: rgb(246, 219, 224);
+    font: italic;
+}
+
+.active {
+    background-color:rgb(56, 56, 150);
+    font: italic;
+    color:rgb(13, 13, 80);
+}
+
+.row{
+    display: flex;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
+
+button {
+    background-color:rgb(13, 13, 80);
+    color: wheat;
+    font: italic;
+}
+
+strong {
+    background-color: rgb(56, 56, 150);
+}
+
