@@ -1,0 +1,200 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+
+    font-weight: 700;
+    font-style: oblique;
+    color: wheat;
+
+
+}
+
+body {
+    background-image: url("proimg/IMG_0621.GIF");
+    background-size: cover;
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+header{
+    margin: 0;
+}
+
+h1 {
+    padding-top: 22px;
+}
+
+header > nav {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    background-color: rgba(74, 78, 114, 0.505);
+    margin-bottom: 16px;
+    font-weight: bold; 
+    display: flex;
+}
+/* 
+.ham {
+    display: block;
+    font-size: 30px;
+    line height: 30px;
+    margin: 0 0 0 10px;
+}
+
+.ham:before {
+    content: "\2261";
+
+}
+
+.ham.active:before {
+
+}
+
+@media screen and (min-width: 520px) {
+    .header > nav {
+        display: flex;
+        width: 100%;
+        margin-top: 0;
+
+    }
+    .ham {
+
+    }
+} */
+
+ol,
+ul {
+    list-style: none;
+    font-weight: bold; 
+    }
+
+    a:visited, 
+a{
+    /* color: rgb(219, 147, 147); */
+    color: rgb(219, 157, 1);
+    text-decoration-color:rgb(219, 157, 1);
+}
+
+header > nav > ul {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    padding: 0.7%;
+}
+
+    h2,
+    h3, ul {
+    font-style: normal;
+    
+    }
+
+    body {
+    margin: 50px;
+    padding: 0;
+    height: 100vh;
+    /* transition:  */
+}
+
+
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #cdc9c1;
+    border: 3px solid#242e47;
+    border-radius: 5px;
+    color: #242e47;
+    cursor: pointer;
+    margin: 0 auto;
+    padding: 10px 20px;
+    display: block;
+    font-weight: bold; 
+    margin: 10px auto; 
+
+}
+
+button:hover {
+    background-color: #507cbd;
+    border: 3px solid #274c84;
+    color: peachpuff;
+}
+
+text-container {
+    text-align: center;
+    color: #fafafa;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+#text-container h2 {
+    color: wheat;
+    margin: 0;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+#text-container p {
+    color: wheat;
+    margin: 10px 0 0;
+    font-size: 18px;
+    font-weight: 10px;
+    ;
+
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(65, 73, 145, 0.505);
+    z-index: 1;
+}
+
+header, #text-container, button {
+    position: relative; 
+    z-index: 2;
+}
+
+.column {
+        float: left;
+        padding: 10px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+    
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
