@@ -1,18 +1,5 @@
 const backgrounds = [
     'url("proimg/IMG_0623.GIF")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
-    'url("")',
 ];
 
 const button = document.getElementById("change-button");
